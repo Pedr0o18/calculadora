@@ -70,4 +70,9 @@ b_mais.place(x=360, y=300)
 b_igual = Button(frame_body, text="=", width=10, height=4, bg=cor5, fg=cor2, font=('Ivy 13 bold'), relief=RAISED, overrelief=RIDGE)
 b_igual.place(x=360, y=400)
 
+# 5 Passo: Label do Display
+
+app_label = Label(frame_display, text="123456789", width=32, height=4, padx=7, relief=FLAT, anchor="e", justify=RIGHT, font=('Ivy 18'), bg=cor3)
+app_label.place(x=0, y=0)
+
 janela.mainloop()
