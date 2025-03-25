@@ -75,9 +75,4 @@ b_igual.place(x=360, y=400)
 app_label = Label(frame_display, text="123456789", width=32, height=4, padx=7, relief=FLAT, anchor="e", justify=RIGHT, font=('Ivy 18'), bg=cor3)
 app_label.place(x=0, y=0)
 
-# 6 Paso: Funções
-
-def calcular(a=0, b=0):
-    res =
-
 janela.mainloop()
